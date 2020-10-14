@@ -14,11 +14,6 @@ import { color } from 'react-native-reanimated'
 import SwipeButton from 'rn-swipe-button'
 import colors from '../colors'
 
-const meat = ['Chicken', 'Beef', 'Fish']
-const firstMeal = ['Egg', 'Bacon', 'Sausage']
-const carbs = ['Bread', 'Oats', 'Potato', 'Rice', 'Cous Cous', 'Pasta']
-const sides = ['Mixed Vege', 'Salad']
-const afterWorkout = ['Smoothie', {carbs}]
 
 function ButtonOne() {
   return ( 
