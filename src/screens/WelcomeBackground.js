@@ -20,10 +20,10 @@ const styles = StyleSheet.create({
 
     },
     text: {
-        color: colors.black,
-        fontSize: 24,
+        color: colors.white,
+        fontSize: 36,
         justifyContent: 'center',
-        paddingBottom: 300
+        paddingBottom: 600
     }
 })
 

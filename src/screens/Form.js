@@ -1,18 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
   SafeAreaView,
   StyleSheet,
-  ScrollView,
   View,
   Text,
   Button,
-  StatusBar,
-  TouchableWithoutFeedback,
-  Alert,
+
 } from 'react-native';
 import { color } from 'react-native-reanimated'
 import SwipeButton from 'rn-swipe-button'
 import colors from '../colors'
+
+const formPageScreens = props => {
+  const [slideOneValue, setSlideOneValue] = useState()
+  const [slideTwoValue, setSlideTwoValue] = useState()
+  const [slideThreeValue, setSlideThreeValue] = useState()
+  const [slideFourValue, setSlideFourValue] = useState()
+  const [slideFiveValue, setSlideFiveValue] = useState() 
+}
+
+const formPageHandler = props => {
+
+}
 
 
 function ButtonOne() {
@@ -68,7 +77,9 @@ export default function Form() {
             //thumbIconImageSource={thumbIcon}
             //You can also set your own icon for the button (Optional)
             onSwipeSuccess={() => {
-              console.log('Submitted Successfully!');
+              console.log('Submitted Successfully!')
+              //onSwipe willdo something like
+              // remove meal 1 and carbs if some other option agree etc
             }}
             //After the completion of swipe (Optional)
             railFillBackgroundColor="#e688a1" //(Optional)
