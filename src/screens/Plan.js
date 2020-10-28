@@ -1,9 +1,11 @@
 import React from 'react'
-import { View, Text } from 'react-native'
-import Breakfast from './components/Breakfast'
+import { View, Text, StyleSheet } from 'react-native'
+import Breakfast from '../components/Breakfast'
 
 //conditional rendering from form results
 const generateMeals = () => {
+
+    // switch ()
 
     //switch statement??
     // if btn-1 && || btn-3 === true
